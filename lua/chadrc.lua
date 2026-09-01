@@ -6,19 +6,11 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
-
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+	theme = "catppuccin",
 }
 
--- M.nvdash = { load_on_startup = true }
--- M.ui = {
---       tabufline = {
---          lazyload = false
---      }
--- }
+M.ui = {
+  telescope = { style = "bordered"},
+}
 
 return M
